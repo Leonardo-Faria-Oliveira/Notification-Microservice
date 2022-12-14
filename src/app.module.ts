@@ -1,17 +1,13 @@
 /* eslint-disable prettier/prettier */
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
-import { HttpModule } from './http.module';
-import { PrismaService } from './prisma.service';
+import { DatabaseModule } from './infra/database/database.module';
+import { HttpModule } from './infra/http/http.module';
 
 @Module({
   imports: [
-    HttpModule
+    HttpModule,
+    DatabaseModule
   ],
-  controllers: [AppController],
-  providers: [
-    PrismaService,
-],
+
 })
 export class AppModule {}
