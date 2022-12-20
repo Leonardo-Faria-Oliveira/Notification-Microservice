@@ -7,6 +7,7 @@ import { ReadNotification } from '@app/use-cases/read-notification';
 import { UnreadNotification } from '@app/use-cases/unread-notification';
 import { CountRecipientNotification } from '@app/use-cases/count-recipient-notifications';
 import { GetRecipientNotification } from '@app/use-cases/get-recipient-notifications';
+import { GetNotificationById } from '@app/use-cases/get-notification-by-id';
 
 @Controller('notifications')
 export class NotificationsController {
@@ -17,6 +18,7 @@ export class NotificationsController {
     private unreadNotification: UnreadNotification,
     private countRecipientNotification: CountRecipientNotification,
     private getRecipientNotification: GetRecipientNotification,
+    private getNotificationById: GetNotificationById,
   ) {}
 
   @Patch(':id/unread')
@@ -31,6 +33,17 @@ export class NotificationsController {
     await this.readNotification.execute({
       notificationId: id,
     });
+  }
+
+  @Get(':id')
+  async findOne(@Param('id') id: string) {
+    const { notification } = await this.getNotificationById.execute({
+      notificationId: id,
+    });
+
+    return {
+      notification: NotificationViewModule.toHTTP(notification),
+    };
   }
 
   @Get('from/:recipientId')
