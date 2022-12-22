@@ -1,28 +1,28 @@
 <h1>Notification Microservice</h1>
-<a href="https://www.figma.com/file/aH44c21oigsrd2Uje6Bjw0/Untitled?node-id=0%3A1&t=4YU4N2EcDya970q3-1" target="blank">![image](https://user-images.githubusercontent.com/66142358/209160103-9c4374f9-a59c-44eb-9bbd-a722e9567795.png)</a>
+<a href="https://www.figma.com/file/aH44c21oigsrd2Uje6Bjw0/Untitled?node-id=0%3A1&t=4YU4N2EcDya970q3-1" target="blank"><img src='https://user-images.githubusercontent.com/66142358/209160103-9c4374f9-a59c-44eb-9bbd-a722e9567795.png' alt ='map'/></a>
 
 <h2>Use cases</h2>
 
 <h4>Create a notification</h4>
-![image](https://user-images.githubusercontent.com/66142358/209160628-daf9ad15-00d1-4486-a45d-378917dc288d.png)
+<img src='https://user-images.githubusercontent.com/66142358/209160628-daf9ad15-00d1-4486-a45d-378917dc288d.png' alt ='create'/>
 
 <h4>Count the notifications</h4>
-![image](https://user-images.githubusercontent.com/66142358/209160762-cde5e2be-50e8-4e5d-bc5f-3d4cda1b5743.png)
+<img src='https://user-images.githubusercontent.com/66142358/209160762-cde5e2be-50e8-4e5d-bc5f-3d4cda1b5743.png' alt ='count'/>
 
 <h4>Get many notifications</h4>
-![image](https://user-images.githubusercontent.com/66142358/209160888-6f8998fe-1cb2-4118-9112-ffff14152b52.png)
+<img src='https://user-images.githubusercontent.com/66142358/209160888-6f8998fe-1cb2-4118-9112-ffff14152b52.png' alt ='get many'/>
 
 <h4>Get one notification</h4>
-![image](https://user-images.githubusercontent.com/66142358/209160994-38fe2f68-08c1-4fa5-91bb-897ae97474c1.png)
+<img src='https://user-images.githubusercontent.com/66142358/209160994-38fe2f68-08c1-4fa5-91bb-897ae97474c1.png' alt ='get one'/>
 
 <h4>Cancel a notification</h4>
-![image](https://user-images.githubusercontent.com/66142358/209161121-a95bbbdb-fec3-49c9-b4cc-d375c15ae8c4.png)
+<img src='https://user-images.githubusercontent.com/66142358/209161121-a95bbbdb-fec3-49c9-b4cc-d375c15ae8c4.png' alt ='cancel'/>
 
 <h4>Mark a notification as read</h4>
-![image](https://user-images.githubusercontent.com/66142358/209161241-e4ae1b58-752d-442d-aaca-2a5355b7463a.png)
+<img src='https://user-images.githubusercontent.com/66142358/209161241-e4ae1b58-752d-442d-aaca-2a5355b7463a.png' alt ='read'/>
 
 <h4>Mark a notification as unread</h4>
-![image](https://user-images.githubusercontent.com/66142358/209161453-434717d7-84c5-4493-8cc8-b705250c8f1a.png)
+<img src='https://user-images.githubusercontent.com/66142358/209161453-434717d7-84c5-4493-8cc8-b705250c8f1a.png' alt ='unread'/>
 
 <h3><a href= 'https://app.swaggerhub.com/apis-docs/LEONARDON00BFARIA/NotificationMicroService/1.0.0#/' >#Docs of the API</a></h3>
 
